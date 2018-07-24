@@ -10,12 +10,18 @@ Ps.需額外安裝Microsoft.AspNetCore.All,版本請選擇2.0.9 大於會不相�
 
 **********Don't Try**********
 注意：=> Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
 M$表示：需要安裝Microsoft.EntityFrameworkCore.SqlServer 
+
 千萬不要安裝會出現以下錯誤，這錯誤網路上還沒人解千萬不要白目：
+
 「Unable to resolve service for type 'Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper' 
+
 while attempting to activate 'Microsoft.EntityFrameworkCore.Scaffolding.Internal.RelationalScaffoldingModelFactory'.」
 
-**********How to get Db using Nuget Console**********
+**********如何利用Nuget Console更新資料庫Model至專案內**********<p>
+
+1. 在Nuget Console輸入下列指令
 Scaffold-DbContext "{0}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir {1}
 
 {0} => Connection String 可透過伺服器總管取得
@@ -24,7 +30,9 @@ Scaffold-DbContext "{0}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir {1}
 **********注意**********
 
 專案到新電腦時,如SQL尚未建立請修改Db Connection String 
+
 並建立DataBase後並依序執行下列步驟
+
 1. 開啟Nuget Console,並將預設專案調整為此專案名稱
 2. 假設專案底下沒有Migrations資料夾
    請輸入：Enable-Migrations
