@@ -13,7 +13,7 @@ Ps.需額外安裝Microsoft.AspNetCore.All,版本請選擇2.0.9 大於會不相�
 
 M$表示：需要安裝Microsoft.EntityFrameworkCore.SqlServer 
 
-千萬不要安裝會出現以下錯誤，這錯誤網路上還沒人解千萬不要白目：
+千萬不要安裝會出現以下錯誤，
 
 「Unable to resolve service for type 'Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper' 
 
