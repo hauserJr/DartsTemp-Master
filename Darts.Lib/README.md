@@ -21,7 +21,8 @@ while attempting to activate 'Microsoft.EntityFrameworkCore.Scaffolding.Internal
 
 **********如何利用Nuget Console更新資料庫Model至專案內**********<p>
 
-1. 在Nuget Console輸入下列指令
+1. 在Nuget Console選擇專案
+2. 在Nuget Console輸入下列指令
 Scaffold-DbContext "{0}" Microsoft.EntityFrameworkCore.SqlServer -OutputDir {1}
 
 {0} => Connection String 可透過伺服器總管取得
