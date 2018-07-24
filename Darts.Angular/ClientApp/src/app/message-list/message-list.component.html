@@ -1,0 +1,27 @@
+<div class="content">
+  <div class="msg-info">
+    <div class="messages">
+      <li *ngFor="let item of messages">
+        <div class="item-msg">
+          {{item.tempA}}
+        </div>
+        <div class="item-msg">
+          {{item.tempB}}
+        </div>
+        <button (click)="delete(item)">
+          Delete
+        </button>
+      </li>
+    </div>
+  </div>
+  
+  <div class="input-area">
+    <div class="input-info">
+      Message:
+    </div>
+    <input #msg>
+    <div class="send" (click)="add(msg.value); msg.value='';">
+        send
+    </div>
+  </div>
+</div>

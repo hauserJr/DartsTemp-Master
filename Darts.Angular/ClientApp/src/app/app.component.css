@@ -1,0 +1,23 @@
+#ngview{
+    
+}
+
+.welcome-info{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    background-color: #70C4C7;
+    padding: .3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.welcome-info .info {
+    border-style: solid;
+    border-radius: .1em;
+    padding: .2em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
