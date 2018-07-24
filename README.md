@@ -11,6 +11,6 @@ Darts.Lib專案介紹及注意事項等
 # 如需運行此專案請先建立DB
 DataBase Name ： DartTemp
 
-Data Table Script：[DB Script](https://github.com/hauserJr/DartsTemp-Master/tree/master/Darts.Lib/Script)
+Data Table Script：[DB Script](https://github.com/hauserJr/DartsTemp-Master/blob/master/Darts.Lib/Script/20180724SqlScript.sql)
 
 連線字串預設為本地Sql,如有必要請自行修正
