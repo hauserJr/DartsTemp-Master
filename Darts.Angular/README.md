@@ -36,8 +36,8 @@
 
 * AngularTempDataModel.ts
 > 用途為Data Model，當介接後端資料時,名稱需一致 
-> ### 注意：欄位名稱第一個字母絕對需要是小寫 !!!!!!
-
+> ### 注意：Html的樣板取得資料欄位名稱第一個字母絕對需要是小寫 !!!!!!
+> ### 詳情請洽 => message-list.component.html 檔案查看
 * message-list.component.ts
 > 裡面定義了各式模板、服務 etc.。
 > 
